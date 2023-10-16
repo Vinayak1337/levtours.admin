@@ -65,7 +65,7 @@ export default function Register() {
 		//SUBMIT FORM
 		setLoading(true);
 		axios
-			.post(`${API}/signup`, { ...user })
+			.post(`${API}/signup`, { ...user, address: 'null', mobile: 1234567890 })
 			.then(response => {
 				setLoading(false);
 				//console.log(response);

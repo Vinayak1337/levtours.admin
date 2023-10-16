@@ -6,9 +6,9 @@
 
 import { useEffect } from 'react';
 
-export const API = 'https://levtours-server.herokuapp.com';
+// export const API = 'https://levtours-server.onrender.com';
 
-// export const API = 'http://localhost:5000';
+export const API = 'http://localhost:5000';
 
 export const useLogger = (...args) => {
 	useEffect(

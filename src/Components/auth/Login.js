@@ -6,6 +6,7 @@ import ClipLoader from "react-spinners/ClipLoader";
 import { isAutheticated } from "./authhelper";
 import { API } from "../../API";
 import { connect } from "react-redux";
+import { Link } from "react-router-dom";
 
 const Login = ({ adminLogo }) => {
   const history = useHistory();
@@ -163,12 +164,12 @@ const Login = ({ adminLogo }) => {
                           </button>
                         </a>
                       </div>
-                      {/* <div>
+                      <div>
                         <h6>
                           Don't have an account?
                           <Link to="/register"> Register</Link>
                         </h6>
-                      </div> */}
+                      </div>
                     </form>
                   </div>
                 </div>
