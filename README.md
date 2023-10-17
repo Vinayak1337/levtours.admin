@@ -1,6 +1,6 @@
 # Levtours Admin Panel
 
-This repository contains the frontend code for the Levtours Admin Panel. It serves as the primary interface for administrators to manage, oversee users of [Levtours Website](https://levtours-website.netlify.app/), creating blogs for the same site and manually add passengers.
+This repository contains the frontend code for the Levtours Admin Panel. It serves as the primary interface for administrators to manage, oversee users of [Levtours Website](https://levtours.netlify.app/), creating blogs for the same site and manually add passengers.
 
 ## Live Demo
 
