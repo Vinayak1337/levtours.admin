@@ -1,7 +1,7 @@
 # Levtours Admin Panel
 
 This repository contains the frontend code for the Levtours Admin Panel. It serves as the primary interface for administrators to manage, oversee users of [Levtours Website](https://levtours.netlify.app/), creating blogs for the same site and manually add passengers.
-
+Written in React, utilizing technologies such as React-Router for mimicking a multi-page site experience, Redux for global state management, and CKEditor for rich text editing and content creation, among others.
 ## Live Demo
 
 You can view the live version of the admin panel [here](https://levtours-admin-panel.netlify.app).
